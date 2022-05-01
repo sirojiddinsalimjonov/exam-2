@@ -1,0 +1,125 @@
+.site-main {
+}
+.site-main__manage {
+  background-image: url(../../img/Group-main.jpg);
+  background-repeat: no-repeat;
+  padding-top: 600px;
+  position: relative;
+}
+.site-main__content {
+  width: 445px;
+  padding-top: 56px;
+  padding-right: 56px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+
+}
+
+.site-main__text {
+    margin: 0;
+    padding: 0;
+  width: 390px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.446429px;
+  margin-bottom: 33px;
+}
+.site-main__span {
+
+}
+.site-main__button {
+    display: flex;
+  background-color: #203a4c;
+    border: none;
+    padding: 0;
+    &:hover {
+        background-color: #5FB4A2;
+    
+    }
+}
+
+.button-img {
+    padding: 26px 16px 18px 16px;
+}
+.site-main__link {
+    padding: 0;
+    margin: 0;
+  text-align: center;
+  font-style: normal;
+  padding-top: 26px;
+  padding-bottom: 18px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+text-decoration: none;
+  color: #ffffff;
+  width: 170px;
+  
+}
+
+@media only screen and (max-width: 770px) {
+
+    .site-main__manage {
+        background-image: url(../../img/table-back.jpg);
+        background-size: contain;
+        padding-top: 600px;
+        position: relative;
+    }
+
+    .site-main__content {
+        max-width: 514px; 
+        padding: 0;
+        padding-top: 56px;
+    }
+
+.site-main__text {
+    width: 459px;
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 42px;
+/* or 105% */
+
+letter-spacing: -0.357143px;
+
+color: #33323D;
+}
+
+}
+
+@media only screen and (max-width: 470px) {
+
+    .site-main__content {
+        width: 100%;
+        padding: 0;
+        padding-top: 30px;
+    }
+    .site-main__text {
+        width: 311px;
+        font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 42px;
+/* or 105% */
+
+letter-spacing: -0.357143px;
+
+color: #33323D;
+    }
+.site-main__span {
+
+}
+.site-main__button {
+
+}
+.site-main__link {
+
+}
+    
+
+}

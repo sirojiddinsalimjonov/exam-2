@@ -1,0 +1,140 @@
+.abaut-me {
+  padding-top: 180px;
+}
+.abaut-me-content {
+  display: flex;
+}
+.abaut-me__content-text {
+  width: 350px;
+  margin-left: 125px;
+}
+.abut-me__text {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323d;
+  margin-bottom: 28px;
+}
+.abaut-me__deck {
+  width: 346px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #33323d;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-bottom: 28px;
+}
+.abut-me__link {
+    width: 200px;
+  text-decoration: none;
+  padding: 17px 16px 17px 32px;
+  border: 1px solid #33323d;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #33323d;
+  display: block;
+}
+
+@media only screen and (max-width: 1060px) {
+  .abaut-me {
+    padding-top: 80px;
+  }
+
+  .abaut-me__content-text {
+    width: 300px;
+  }
+
+  .abaut-us__img {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .abaut-us__img {
+    width: 281px;
+  }
+
+  .abaut-me__content-text {
+    width: 300px;
+    margin-left: 125px;
+  }
+
+  .abut-me__text {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323d;
+    margin-bottom: 28px;
+  }
+
+  .abaut-me__deck {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 700px) {
+    .abaut-me__content-text {
+        width: 180px;
+        margin-left: 55px;
+      }
+}
+
+@media only screen and (max-width: 500px) {
+  .abaut-me-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .abaut-us__img {
+    width: 281px;
+  }
+
+  .abaut-me__content-text {
+    width: 311px;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+    
+  }
+
+  .abut-me__text {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+    color: #33323d;
+    margin-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .abaut-me__deck {
+    width: 311px;
+    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .abut-me__link {
+      margin-right: auto;
+      margin-left: auto;
+  }
+}

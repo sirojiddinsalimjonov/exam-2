@@ -1,0 +1,114 @@
+
+.contact__left-text {
+  margin-top: 57px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-deckc {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.357143px;
+  color: #33323d;
+}
+.contact-form {
+  display: block;
+  width: 635px;
+}
+
+.contact__form-text {
+  margin: 0;
+  margin-bottom: 8px;
+}
+.contact__form-input {
+  width: 100%;
+  padding: 9px;
+  margin-bottom: 24px;
+  border: none;
+  background-color: #d1d1d1;
+}
+.contact-__form-email {
+  position: relative;
+}
+.contact__email-input {
+  width: 100%;
+  padding: 9px;
+  margin-bottom: 24px;
+  border: none;
+  background-color: #d1d1d1;
+}
+.contact__email-input:not(:focus):not(:placeholder-shown):invalid
+  + .contact__form-erortext {
+  display: block;
+}
+.contact__form-input:not(:focus):not(:placeholder-shown):invalid + .contact__form-erortext {
+  display: block;
+}
+
+.contact__form-erortext {
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  text-transform: uppercase;
+  color: rgb(255, 0, 0);
+}
+.contact__form-area {
+  width: 635px;
+  height: 96px;
+  margin-bottom: 24px;
+  padding: 9px;
+  border: none;
+  resize: none;
+  background-color: #d1d1d1;
+}
+.contact__form-toggler {
+  display: block;
+  padding: 17px 28px;
+  margin: 0;
+  border: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #203a4c;
+}
+
+@media only screen and (max-width: 840px) {
+    .contact__left-text {
+        flex-direction: column;
+        
+    }
+    .contact-deckc {
+        margin-bottom: 24px;
+    }
+
+    
+}
+@media only screen and (max-width: 840px) {
+    .contact__left-text {
+        width: 311px;
+    }
+    .contact-form {
+        width: 311px;
+    }
+
+    .contact__form-area {
+        width: 311px;
+    }
+
+    .contact {
+        width: 311px;
+    }
+    .contact__container {
+        width: 311px;
+    } 
+}

@@ -1,0 +1,28 @@
+.footer-logos__list {
+    
+    align-items: center;
+    display: flex;
+    @include list-unstyled
+}
+.footer-logos__item {
+    &:not(:last-child) {
+        margin-right: 15px;
+    }
+}
+.footer-logos__link {
+}
+
+.footer-logos__link svg{
+color: white;
+&:hover {
+    color: aqua;
+}
+}
+
+@media only screen and (max-width: 500px) {
+
+    .footer-logos__list {
+        margin-top: 40px;
+    }
+
+}

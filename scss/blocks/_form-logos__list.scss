@@ -1,0 +1,12 @@
+.form-logos__list {
+    display: flex;
+    @include list-unstyled
+    
+}
+.form-logos__link {
+    color: #33323D;
+    &:hover {
+        color: aqua;
+    }
+    
+}
